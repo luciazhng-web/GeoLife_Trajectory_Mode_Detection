@@ -36,7 +36,7 @@ Label Simplification: To reduce class ambiguity, labels were merged based on phy
 
 • Car + Taxi → Car
 
-• Train + Railway → Train 1
+• Train + Railway → Train
 
 Sampling Frequency Uniformity: The dataset contains varying sampling rates 2 - See Figure 1. As 91% of the data is recorded at high density (1-5s or 5-10m), and the features are based on speed
 and acceleration which means they are normalized by time intervals so no re-sampling will be incorporated in the pipeline.
