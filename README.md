@@ -13,8 +13,11 @@ mobility insights. Specifically, the project aims to:
 2. Implement filtering and smoothing techniques to mitigate GPS sensor noise.
 3. To engineer statistical and spatial features that distinguish between different transportation modes.
 2.2 Hypothesis
+   
 H1: Statistical moments (skewness, kurtosis) of speed profiles are stronger predictors of motorized vs. non-motorized transport than simple mean speed.
+
 H2: Transportation modes like ”Bus” and ”Taxi” can be differentiated by their proximity to Public Transport (PT) infrastructure extracted from OpenStreetMap (OSM).
+
 H3: Each trajectory file is recorded on the same device
 
 **About the dataset**
