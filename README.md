@@ -33,8 +33,11 @@ Before implementing the pipeline, the following design constraints were resolved
 Handling Unlabeled Data: While only labeled data is used for training, unlabeled data is essential during the preprocessing phase. These points represent stay points and movements between labeled
 trips; removing them early would break the continuity required to accurately identify stops and segment boundaries.
 Label Simplification: To reduce class ambiguity, labels were merged based on physical characteristics:
+
 • Car + Taxi → Car
+
 • Train + Railway → Train 1
+
 Sampling Frequency Uniformity: The dataset contains varying sampling rates 2 - See Figure 1. As 91% of the data is recorded at high density (1-5s or 5-10m), and the features are based on speed
 and acceleration which means they are normalized by time intervals so no re-sampling will be incorporated in the pipeline.
 
