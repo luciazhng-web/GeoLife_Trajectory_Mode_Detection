@@ -12,7 +12,8 @@ mobility insights. Specifically, the project aims to:
 1. Develop a data processing pipeline that transforms raw GPS points into semantically enriched movement segments.
 2. Implement filtering and smoothing techniques to mitigate GPS sensor noise.
 3. To engineer statistical and spatial features that distinguish between different transportation modes.
-2.2 Hypothesis
+
+**Hypothesis**
    
 H1: Statistical moments (skewness, kurtosis) of speed profiles are stronger predictors of motorized vs. non-motorized transport than simple mean speed.
 
